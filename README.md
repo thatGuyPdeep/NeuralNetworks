@@ -1,7 +1,7 @@
 # NeuralNetworks
  
-HSL622 - Computation and Cognition
-M.Sc. Cognitive Science
+HSL622 - Computation and Cognition,
+M.Sc. Cognitive Science,
 Indian Institute of Technology, Delhi
 
 ----------------------------------------------------------------------
@@ -21,10 +21,12 @@ Layers: The image data is propagated forward through the layers of the network. 
 Linear Combination: Input values are multiplied by weights and a bias term is added.
 Activation Function: A non-linear function (like ReLU or sigmoid) is applied to the result, introducing the ability to model complex patterns.
 Output: The output layer produces probabilities for each of the 10 digit classes.
+
 Backpropagation
 
 Error Calculation: The network's prediction (output) is compared to the true label of the image. An error or loss function is used to quantify the difference.
 Error Propagation: Through the chain rule, the error is propagated backwards through the network layers. Gradients are calculated, representing how much each weight and bias contributed to the error.
+
 Updating Parameters
 
 Gradient Descent: An optimization algorithm, gradient descent uses the calculated gradients to update the network's weights and biases.
